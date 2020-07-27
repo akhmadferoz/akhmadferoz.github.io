@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <style>
+    body { 
+  background: url(KEKF-Loading-Screen.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+    font-family: 'Capsule-X-Pro-Medium-Personal-Use';
+    src: local('Capsule-X-Pro-Medium-Personal-Use'),
+         url('Capsule-X-Pro-Medium-Personal-Use.otf') format("opentype");
+  }
+
+  @font-face {
+    font-family: 'dream-orphans';
+    src: local('dream-orphans'),
+         url('dream-orphans.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: 'ELEPHNT';
+    src: local('ELEPHNT'),
+         url('ELEPHNT.TTF') format("truetype");
+  }
+
+/*      */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: Capsule-X-Pro-Medium-Personal-Use;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 128px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-family: Capsule-X-Pro-Medium-Personal-Use;
+    /* width: 100%; */
+    letter-spacing: 40px;
+    /* background-color: red; */
+}
+img.logo {
+    position: absolute;
+    width: 400px;
+    /* top: 10%; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.project {
+    font-family: ELEPHNT;
+    text-align: center;
+    /* color: white; */
+    font-size: 24px;
+    position: absolute;
+    white-space: nowrap;
+    left: 50%;
+    /* top: 70%; */
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.project-by {
+    font-family: dream-orphans;
+    text-align: center;
+    /* color: white; */
+    font-size: 15px;
+    position: absolute;
+    white-space: nowrap;
+    left: 50%;
+    /* top: 70%; */
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1169px) {
+  .text {
+    font-size: 120px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .text {
+    letter-spacing: 30px;
+  }
+  img.logo {
+    width: 350px;
+}
+}
+
+@media only screen and (max-width: 1048px) {
+  .text {
+    font-size: 100px;
+  }
+  img.logo {
+    top: 10%;
+    width: 300px;
+}
+}
+
+@media only screen and (max-width: 920px) {
+  .text {
+    font-size: 80px;
+    letter-spacing: 20px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .text {
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .text {
+    /* font-size: 60px; */
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+    img.logo {
+    /* top: 30%; */
+    width: 200px;
+    /* transform: translateY(-50%); */
+}
+  .text {
+    top: 55%;
+    font-size: 40px;
+    /* letter-spacing: 0; */
+  }
+}
+
+/* @media only screen and (max-width: 1024px) {
+  .text {
+    font-size: 100px;
+    letter-spacing: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .text {
+    font-size: 100px;
+    letter-spacing: 40px;
+  }
+} */
+
+</style>
+  
+<!--    -->
+  <div class="comingSoon">
+    <img class="logo" src="logo.png" alt="">
+    <p class="text">COMING SOON</p>
+    <p class="project-by">PROJECT BY</p>
+    <p class="project">hex & bracket</p>
+  </div>
+  </body>
+</html>
